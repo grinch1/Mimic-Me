@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6A47AAD3270CE0DB002B4F9C /* Mimic_MeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A47AAD2270CE0DB002B4F9C /* Mimic_MeApp.swift */; };
+		6A47AAD5270CE0DB002B4F9C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A47AAD4270CE0DB002B4F9C /* ContentView.swift */; };
+		6A47AAD7270CE0DC002B4F9C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A47AAD6270CE0DC002B4F9C /* Assets.xcassets */; };
+		6A47AADA270CE0DC002B4F9C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A47AAD9270CE0DC002B4F9C /* Preview Assets.xcassets */; };
+		6A47AAE4270CE0DC002B4F9C /* Mimic_MeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A47AAE3270CE0DC002B4F9C /* Mimic_MeTests.swift */; };
+		6A47AAEE270CE0DC002B4F9C /* Mimic_MeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A47AAED270CE0DC002B4F9C /* Mimic_MeUITests.swift */; };
+		6A47AAF0270CE0DC002B4F9C /* Mimic_MeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A47AAEF270CE0DC002B4F9C /* Mimic_MeUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6A47AAE0270CE0DC002B4F9C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6A47AAC7270CE0DB002B4F9C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A47AACE270CE0DB002B4F9C;
+			remoteInfo = "Mimic-Me";
+		};
+		6A47AAEA270CE0DC002B4F9C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6A47AAC7270CE0DB002B4F9C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A47AACE270CE0DB002B4F9C;
+			remoteInfo = "Mimic-Me";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6A47AACF270CE0DB002B4F9C /* Mimic-Me.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mimic-Me.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A47AAD2270CE0DB002B4F9C /* Mimic_MeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mimic_MeApp.swift; sourceTree = "<group>"; };
+		6A47AAD4270CE0DB002B4F9C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6A47AAD6270CE0DC002B4F9C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6A47AAD9270CE0DC002B4F9C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6A47AADF270CE0DC002B4F9C /* Mimic-MeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mimic-MeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A47AAE3270CE0DC002B4F9C /* Mimic_MeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mimic_MeTests.swift; sourceTree = "<group>"; };
+		6A47AAE9270CE0DC002B4F9C /* Mimic-MeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mimic-MeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A47AAED270CE0DC002B4F9C /* Mimic_MeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mimic_MeUITests.swift; sourceTree = "<group>"; };
+		6A47AAEF270CE0DC002B4F9C /* Mimic_MeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mimic_MeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6A47AACC270CE0DB002B4F9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A47AADC270CE0DC002B4F9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A47AAE6270CE0DC002B4F9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6A47AAC6270CE0DB002B4F9C = {
+			isa = PBXGroup;
+			children = (
+				6A47AAD1270CE0DB002B4F9C /* Mimic-Me */,
+				6A47AAE2270CE0DC002B4F9C /* Mimic-MeTests */,
+				6A47AAEC270CE0DC002B4F9C /* Mimic-MeUITests */,
+				6A47AAD0270CE0DB002B4F9C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6A47AAD0270CE0DB002B4F9C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6A47AACF270CE0DB002B4F9C /* Mimic-Me.app */,
+				6A47AADF270CE0DC002B4F9C /* Mimic-MeTests.xctest */,
+				6A47AAE9270CE0DC002B4F9C /* Mimic-MeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6A47AAD1270CE0DB002B4F9C /* Mimic-Me */ = {
+			isa = PBXGroup;
+			children = (
+				6A47AAD2270CE0DB002B4F9C /* Mimic_MeApp.swift */,
+				6A47AAD4270CE0DB002B4F9C /* ContentView.swift */,
+				6A47AAD6270CE0DC002B4F9C /* Assets.xcassets */,
+				6A47AAD8270CE0DC002B4F9C /* Preview Content */,
+			);
+			path = "Mimic-Me";
+			sourceTree = "<group>";
+		};
+		6A47AAD8270CE0DC002B4F9C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6A47AAD9270CE0DC002B4F9C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6A47AAE2270CE0DC002B4F9C /* Mimic-MeTests */ = {
+			isa = PBXGroup;
+			children = (
+				6A47AAE3270CE0DC002B4F9C /* Mimic_MeTests.swift */,
+			);
+			path = "Mimic-MeTests";
+			sourceTree = "<group>";
+		};
+		6A47AAEC270CE0DC002B4F9C /* Mimic-MeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6A47AAED270CE0DC002B4F9C /* Mimic_MeUITests.swift */,
+				6A47AAEF270CE0DC002B4F9C /* Mimic_MeUITestsLaunchTests.swift */,
+			);
+			path = "Mimic-MeUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6A47AACE270CE0DB002B4F9C /* Mimic-Me */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A47AAF3270CE0DC002B4F9C /* Build configuration list for PBXNativeTarget "Mimic-Me" */;
+			buildPhases = (
+				6A47AACB270CE0DB002B4F9C /* Sources */,
+				6A47AACC270CE0DB002B4F9C /* Frameworks */,
+				6A47AACD270CE0DB002B4F9C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Mimic-Me";
+			productName = "Mimic-Me";
+			productReference = 6A47AACF270CE0DB002B4F9C /* Mimic-Me.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6A47AADE270CE0DC002B4F9C /* Mimic-MeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A47AAF6270CE0DC002B4F9C /* Build configuration list for PBXNativeTarget "Mimic-MeTests" */;
+			buildPhases = (
+				6A47AADB270CE0DC002B4F9C /* Sources */,
+				6A47AADC270CE0DC002B4F9C /* Frameworks */,
+				6A47AADD270CE0DC002B4F9C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6A47AAE1270CE0DC002B4F9C /* PBXTargetDependency */,
+			);
+			name = "Mimic-MeTests";
+			productName = "Mimic-MeTests";
+			productReference = 6A47AADF270CE0DC002B4F9C /* Mimic-MeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6A47AAE8270CE0DC002B4F9C /* Mimic-MeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A47AAF9270CE0DC002B4F9C /* Build configuration list for PBXNativeTarget "Mimic-MeUITests" */;
+			buildPhases = (
+				6A47AAE5270CE0DC002B4F9C /* Sources */,
+				6A47AAE6270CE0DC002B4F9C /* Frameworks */,
+				6A47AAE7270CE0DC002B4F9C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6A47AAEB270CE0DC002B4F9C /* PBXTargetDependency */,
+			);
+			name = "Mimic-MeUITests";
+			productName = "Mimic-MeUITests";
+			productReference = 6A47AAE9270CE0DC002B4F9C /* Mimic-MeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6A47AAC7270CE0DB002B4F9C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					6A47AACE270CE0DB002B4F9C = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					6A47AADE270CE0DC002B4F9C = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 6A47AACE270CE0DB002B4F9C;
+					};
+					6A47AAE8270CE0DC002B4F9C = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 6A47AACE270CE0DB002B4F9C;
+					};
+				};
+			};
+			buildConfigurationList = 6A47AACA270CE0DB002B4F9C /* Build configuration list for PBXProject "Mimic-Me" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6A47AAC6270CE0DB002B4F9C;
+			productRefGroup = 6A47AAD0270CE0DB002B4F9C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6A47AACE270CE0DB002B4F9C /* Mimic-Me */,
+				6A47AADE270CE0DC002B4F9C /* Mimic-MeTests */,
+				6A47AAE8270CE0DC002B4F9C /* Mimic-MeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6A47AACD270CE0DB002B4F9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A47AADA270CE0DC002B4F9C /* Preview Assets.xcassets in Resources */,
+				6A47AAD7270CE0DC002B4F9C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A47AADD270CE0DC002B4F9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A47AAE7270CE0DC002B4F9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6A47AACB270CE0DB002B4F9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A47AAD5270CE0DB002B4F9C /* ContentView.swift in Sources */,
+				6A47AAD3270CE0DB002B4F9C /* Mimic_MeApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A47AADB270CE0DC002B4F9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A47AAE4270CE0DC002B4F9C /* Mimic_MeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A47AAE5270CE0DC002B4F9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A47AAF0270CE0DC002B4F9C /* Mimic_MeUITestsLaunchTests.swift in Sources */,
+				6A47AAEE270CE0DC002B4F9C /* Mimic_MeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6A47AAE1270CE0DC002B4F9C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6A47AACE270CE0DB002B4F9C /* Mimic-Me */;
+			targetProxy = 6A47AAE0270CE0DC002B4F9C /* PBXContainerItemProxy */;
+		};
+		6A47AAEB270CE0DC002B4F9C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6A47AACE270CE0DB002B4F9C /* Mimic-Me */;
+			targetProxy = 6A47AAEA270CE0DC002B4F9C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6A47AAF1270CE0DC002B4F9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6A47AAF2270CE0DC002B4F9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6A47AAF4270CE0DC002B4F9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Mimic-Me/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "espm.Mimic-Me";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6A47AAF5270CE0DC002B4F9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Mimic-Me/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "espm.Mimic-Me";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6A47AAF7270CE0DC002B4F9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "espm.Mimic-MeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mimic-Me.app/Mimic-Me";
+			};
+			name = Debug;
+		};
+		6A47AAF8270CE0DC002B4F9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "espm.Mimic-MeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mimic-Me.app/Mimic-Me";
+			};
+			name = Release;
+		};
+		6A47AAFA270CE0DC002B4F9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "espm.Mimic-MeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Mimic-Me";
+			};
+			name = Debug;
+		};
+		6A47AAFB270CE0DC002B4F9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "espm.Mimic-MeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Mimic-Me";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6A47AACA270CE0DB002B4F9C /* Build configuration list for PBXProject "Mimic-Me" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A47AAF1270CE0DC002B4F9C /* Debug */,
+				6A47AAF2270CE0DC002B4F9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A47AAF3270CE0DC002B4F9C /* Build configuration list for PBXNativeTarget "Mimic-Me" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A47AAF4270CE0DC002B4F9C /* Debug */,
+				6A47AAF5270CE0DC002B4F9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A47AAF6270CE0DC002B4F9C /* Build configuration list for PBXNativeTarget "Mimic-MeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A47AAF7270CE0DC002B4F9C /* Debug */,
+				6A47AAF8270CE0DC002B4F9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A47AAF9270CE0DC002B4F9C /* Build configuration list for PBXNativeTarget "Mimic-MeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A47AAFA270CE0DC002B4F9C /* Debug */,
+				6A47AAFB270CE0DC002B4F9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6A47AAC7270CE0DB002B4F9C /* Project object */;
+}
