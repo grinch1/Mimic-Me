@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		058600B6272491E500D4D884 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058600B5272491E500D4D884 /* Utils.swift */; };
 		6A47AAD3270CE0DB002B4F9C /* Mimic_MeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A47AAD2270CE0DB002B4F9C /* Mimic_MeApp.swift */; };
 		6A47AAD5270CE0DB002B4F9C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A47AAD4270CE0DB002B4F9C /* ContentView.swift */; };
 		6A47AAD7270CE0DC002B4F9C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A47AAD6270CE0DC002B4F9C /* Assets.xcassets */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		058600B5272491E500D4D884 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 		6A47AACF270CE0DB002B4F9C /* Mimic-Me.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mimic-Me.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A47AAD2270CE0DB002B4F9C /* Mimic_MeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mimic_MeApp.swift; sourceTree = "<group>"; };
 		6A47AAD4270CE0DB002B4F9C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -98,6 +100,7 @@
 				6A47AAD4270CE0DB002B4F9C /* ContentView.swift */,
 				6A47AAD6270CE0DC002B4F9C /* Assets.xcassets */,
 				6A47AAD8270CE0DC002B4F9C /* Preview Content */,
+				058600B5272491E500D4D884 /* Utils.swift */,
 			);
 			path = "Mimic-Me";
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			files = (
 				6A47AAD5270CE0DB002B4F9C /* ContentView.swift in Sources */,
 				6A47AAD3270CE0DB002B4F9C /* Mimic_MeApp.swift in Sources */,
+				058600B6272491E500D4D884 /* Utils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

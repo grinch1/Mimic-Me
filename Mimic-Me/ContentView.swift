@@ -11,37 +11,53 @@ import AVFoundation
 
 struct ContentView: View {
     var body: some View {
-        VStack{
+        VStack(spacing: 0){
         Text("Mimic-Me!")
             .font(.largeTitle)
             .bold()
-            HStack{
-                Rectangle()
-                    .fill(.blue)
-                Rectangle()
-                    .fill(.orange)
-                
-            }
-            .frame(height: 180)
-            HStack{
-                Rectangle()
-                    .fill(.red)
-                
-                Rectangle()
-                    .fill(.green)
-                    
-                
-            }
-            .frame(height: 180)
-            Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
-                Text("Play!")
-                    .bold()
-                    .padding()
-                    .foregroundColor(.yellow)
-                    .background(Color.black)
-                    .cornerRadius(10.0)
+            
+        Spacer()
+            
+        HStack(spacing: 0){
+            Spacer()
+            Rectangle()
+                .fill(.blue)
+                .cornerRadius(100, corners: .topLeft)
+            Rectangle()
+                .fill(.orange)
+                .cornerRadius(100, corners: .topRight)
+            Spacer()
+        }
+        .frame(height: 180)
+            
+        HStack(spacing: 0){
+            Spacer()
+            Rectangle()
+                .fill(.red)
+                .cornerRadius(100, corners: .bottomLeft)
+            
+            Rectangle()
+                .fill(.green)
+                .cornerRadius(100, corners: .bottomRight)
+            Spacer()
+        }
+        .frame(height: 180)
+            
+        Spacer()
+            
+            Button(action: {}){
+                Text("Play")
+                    .fontWeight(.bold)
+                    .font(.title)
+                    .foregroundColor(.white)
 
             }
+            .frame(width: 140, height: 60)
+            .padding()
+            .background(Color.black)
+            .padding(10)
+            .border(Color.black, width: 5)
+            Spacer()
 
         }
         
