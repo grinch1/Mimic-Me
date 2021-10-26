@@ -10,47 +10,58 @@ import UIKit
 import AVFoundation
 
 struct ContentView: View {
+    
     var body: some View {
         VStack(spacing: 0){
-        Text("Mimic-Me!")
-            .font(.largeTitle)
-            .bold()
+            Text("Mimic-Me!")
+                .font(.largeTitle)
+                .bold()
             
-        Spacer()
-            
-        HStack(spacing: 0){
             Spacer()
-            Rectangle()
-                .fill(.blue)
-                .cornerRadius(100, corners: .topLeft)
-            Rectangle()
-                .fill(.orange)
-                .cornerRadius(100, corners: .topRight)
+            
+            HStack(spacing: 0){
+                Spacer()
+                Button(action: {print("RED")}) {
+                    Rectangle()
+                        .fill(.red)
+                        .cornerRadius(100, corners: .topLeft)
+                }
+                Button(action: {print("GREEN")}) {
+                    Rectangle()
+                        .fill(.green)
+                        .cornerRadius(100, corners: .topRight)
+                }
+                
+                Spacer()
+            }
+            .frame(height: 180)
+            
+            HStack(spacing: 0){
+                Spacer()
+                Button(action: {print("RED")}) {
+                    Rectangle()
+                        .fill(.blue)
+                        .cornerRadius(100, corners: .bottomLeft)
+                }
+                Button(action: {print("RED")}) {
+                    Rectangle()
+                        .fill(.yellow)
+                        .cornerRadius(100, corners: .bottomRight)
+                }
+                
+                
+                Spacer()
+            }
+            .frame(height: 180)
+            
             Spacer()
-        }
-        .frame(height: 180)
             
-        HStack(spacing: 0){
-            Spacer()
-            Rectangle()
-                .fill(.red)
-                .cornerRadius(100, corners: .bottomLeft)
-            
-            Rectangle()
-                .fill(.green)
-                .cornerRadius(100, corners: .bottomRight)
-            Spacer()
-        }
-        .frame(height: 180)
-            
-        Spacer()
-            
-            Button(action: {}){
+            Button(action: {print("PRINT")}){
                 Text("Play")
                     .fontWeight(.bold)
                     .font(.title)
                     .foregroundColor(.white)
-
+                
             }
             .frame(width: 140, height: 60)
             .padding()
@@ -58,7 +69,7 @@ struct ContentView: View {
             .padding(10)
             .border(Color.black, width: 5)
             Spacer()
-
+            
         }
         
     }

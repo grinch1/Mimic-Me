@@ -12,9 +12,6 @@
 		6A47AAD5270CE0DB002B4F9C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A47AAD4270CE0DB002B4F9C /* ContentView.swift */; };
 		6A47AAD7270CE0DC002B4F9C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A47AAD6270CE0DC002B4F9C /* Assets.xcassets */; };
 		6A47AADA270CE0DC002B4F9C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A47AAD9270CE0DC002B4F9C /* Preview Assets.xcassets */; };
-		6A47AAE4270CE0DC002B4F9C /* Mimic_MeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A47AAE3270CE0DC002B4F9C /* Mimic_MeTests.swift */; };
-		6A47AAEE270CE0DC002B4F9C /* Mimic_MeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A47AAED270CE0DC002B4F9C /* Mimic_MeUITests.swift */; };
-		6A47AAF0270CE0DC002B4F9C /* Mimic_MeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A47AAEF270CE0DC002B4F9C /* Mimic_MeUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,10 +39,7 @@
 		6A47AAD6270CE0DC002B4F9C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6A47AAD9270CE0DC002B4F9C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		6A47AADF270CE0DC002B4F9C /* Mimic-MeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mimic-MeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6A47AAE3270CE0DC002B4F9C /* Mimic_MeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mimic_MeTests.swift; sourceTree = "<group>"; };
 		6A47AAE9270CE0DC002B4F9C /* Mimic-MeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mimic-MeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6A47AAED270CE0DC002B4F9C /* Mimic_MeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mimic_MeUITests.swift; sourceTree = "<group>"; };
-		6A47AAEF270CE0DC002B4F9C /* Mimic_MeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mimic_MeUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,8 +71,6 @@
 			isa = PBXGroup;
 			children = (
 				6A47AAD1270CE0DB002B4F9C /* Mimic-Me */,
-				6A47AAE2270CE0DC002B4F9C /* Mimic-MeTests */,
-				6A47AAEC270CE0DC002B4F9C /* Mimic-MeUITests */,
 				6A47AAD0270CE0DB002B4F9C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -111,23 +103,6 @@
 				6A47AAD9270CE0DC002B4F9C /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		6A47AAE2270CE0DC002B4F9C /* Mimic-MeTests */ = {
-			isa = PBXGroup;
-			children = (
-				6A47AAE3270CE0DC002B4F9C /* Mimic_MeTests.swift */,
-			);
-			path = "Mimic-MeTests";
-			sourceTree = "<group>";
-		};
-		6A47AAEC270CE0DC002B4F9C /* Mimic-MeUITests */ = {
-			isa = PBXGroup;
-			children = (
-				6A47AAED270CE0DC002B4F9C /* Mimic_MeUITests.swift */,
-				6A47AAEF270CE0DC002B4F9C /* Mimic_MeUITestsLaunchTests.swift */,
-			);
-			path = "Mimic-MeUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,7 +245,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6A47AAE4270CE0DC002B4F9C /* Mimic_MeTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,8 +252,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6A47AAF0270CE0DC002B4F9C /* Mimic_MeUITestsLaunchTests.swift in Sources */,
-				6A47AAEE270CE0DC002B4F9C /* Mimic_MeUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
