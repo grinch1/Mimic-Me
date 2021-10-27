@@ -15,6 +15,10 @@
 		6A47AAE4270CE0DC002B4F9C /* Mimic_MeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A47AAE3270CE0DC002B4F9C /* Mimic_MeTests.swift */; };
 		6A47AAEE270CE0DC002B4F9C /* Mimic_MeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A47AAED270CE0DC002B4F9C /* Mimic_MeUITests.swift */; };
 		6A47AAF0270CE0DC002B4F9C /* Mimic_MeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A47AAEF270CE0DC002B4F9C /* Mimic_MeUITestsLaunchTests.swift */; };
+		6AD0F9C62728CC5700AD1C77 /* 3.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6AD0F9C22728CC5700AD1C77 /* 3.wav */; };
+		6AD0F9C72728CC5700AD1C77 /* 4.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6AD0F9C32728CC5700AD1C77 /* 4.wav */; };
+		6AD0F9C82728CC5700AD1C77 /* 1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6AD0F9C42728CC5700AD1C77 /* 1.wav */; };
+		6AD0F9C92728CC5700AD1C77 /* 2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6AD0F9C52728CC5700AD1C77 /* 2.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +50,10 @@
 		6A47AAE9270CE0DC002B4F9C /* Mimic-MeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mimic-MeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A47AAED270CE0DC002B4F9C /* Mimic_MeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mimic_MeUITests.swift; sourceTree = "<group>"; };
 		6A47AAEF270CE0DC002B4F9C /* Mimic_MeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mimic_MeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6AD0F9C22728CC5700AD1C77 /* 3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 3.wav; sourceTree = "<group>"; };
+		6AD0F9C32728CC5700AD1C77 /* 4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 4.wav; sourceTree = "<group>"; };
+		6AD0F9C42728CC5700AD1C77 /* 1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 1.wav; sourceTree = "<group>"; };
+		6AD0F9C52728CC5700AD1C77 /* 2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 2.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +104,7 @@
 		6A47AAD1270CE0DB002B4F9C /* Mimic-Me */ = {
 			isa = PBXGroup;
 			children = (
+				6AD0F9C12728CC2D00AD1C77 /* Sounds */,
 				6A47AAD2270CE0DB002B4F9C /* Mimic_MeApp.swift */,
 				6A47AAD4270CE0DB002B4F9C /* ContentView.swift */,
 				6A47AAD6270CE0DC002B4F9C /* Assets.xcassets */,
@@ -128,6 +137,17 @@
 				6A47AAEF270CE0DC002B4F9C /* Mimic_MeUITestsLaunchTests.swift */,
 			);
 			path = "Mimic-MeUITests";
+			sourceTree = "<group>";
+		};
+		6AD0F9C12728CC2D00AD1C77 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				6AD0F9C42728CC5700AD1C77 /* 1.wav */,
+				6AD0F9C52728CC5700AD1C77 /* 2.wav */,
+				6AD0F9C22728CC5700AD1C77 /* 3.wav */,
+				6AD0F9C32728CC5700AD1C77 /* 4.wav */,
+			);
+			path = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,6 +254,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6AD0F9C82728CC5700AD1C77 /* 1.wav in Resources */,
+				6AD0F9C62728CC5700AD1C77 /* 3.wav in Resources */,
+				6AD0F9C72728CC5700AD1C77 /* 4.wav in Resources */,
+				6AD0F9C92728CC5700AD1C77 /* 2.wav in Resources */,
 				6A47AADA270CE0DC002B4F9C /* Preview Assets.xcassets in Resources */,
 				6A47AAD7270CE0DC002B4F9C /* Assets.xcassets in Resources */,
 			);

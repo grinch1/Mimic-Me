@@ -21,12 +21,12 @@ struct ContentView: View {
             
             HStack(spacing: 0){
                 Spacer()
-                Button(action: {print("RED")}) {
+                Button(action: {soundManager.instance.playSound1()}) {
                     Rectangle()
                         .fill(.red)
                         .cornerRadius(100, corners: .topLeft)
                 }
-                Button(action: {print("GREEN")}) {
+                Button(action: {soundManager.instance.playSound2()}) {
                     Rectangle()
                         .fill(.green)
                         .cornerRadius(100, corners: .topRight)
@@ -38,12 +38,12 @@ struct ContentView: View {
             
             HStack(spacing: 0){
                 Spacer()
-                Button(action: {print("RED")}) {
+                Button(action: {soundManager.instance.playSound3()}) {
                     Rectangle()
                         .fill(.blue)
                         .cornerRadius(100, corners: .bottomLeft)
                 }
-                Button(action: {print("RED")}) {
+                Button(action: {soundManager.instance.playSound4()}) {
                     Rectangle()
                         .fill(.yellow)
                         .cornerRadius(100, corners: .bottomRight)
