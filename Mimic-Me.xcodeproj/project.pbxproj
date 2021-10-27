@@ -19,6 +19,7 @@
 		6AD0F9C72728CC5700AD1C77 /* 4.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6AD0F9C32728CC5700AD1C77 /* 4.wav */; };
 		6AD0F9C82728CC5700AD1C77 /* 1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6AD0F9C42728CC5700AD1C77 /* 1.wav */; };
 		6AD0F9C92728CC5700AD1C77 /* 2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6AD0F9C52728CC5700AD1C77 /* 2.wav */; };
+		6AD0F9CB2729AF1100AD1C77 /* ES_GP39.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6AD0F9CA2729AF1100AD1C77 /* ES_GP39.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		6AD0F9C32728CC5700AD1C77 /* 4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 4.wav; sourceTree = "<group>"; };
 		6AD0F9C42728CC5700AD1C77 /* 1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 1.wav; sourceTree = "<group>"; };
 		6AD0F9C52728CC5700AD1C77 /* 2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 2.wav; sourceTree = "<group>"; };
+		6AD0F9CA2729AF1100AD1C77 /* ES_GP39.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ES_GP39.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,6 +148,7 @@
 				6AD0F9C52728CC5700AD1C77 /* 2.wav */,
 				6AD0F9C22728CC5700AD1C77 /* 3.wav */,
 				6AD0F9C32728CC5700AD1C77 /* 4.wav */,
+				6AD0F9CA2729AF1100AD1C77 /* ES_GP39.mp3 */,
 			);
 			path = Sounds;
 			sourceTree = "<group>";
@@ -257,6 +260,7 @@
 				6AD0F9C82728CC5700AD1C77 /* 1.wav in Resources */,
 				6AD0F9C62728CC5700AD1C77 /* 3.wav in Resources */,
 				6AD0F9C72728CC5700AD1C77 /* 4.wav in Resources */,
+				6AD0F9CB2729AF1100AD1C77 /* ES_GP39.mp3 in Resources */,
 				6AD0F9C92728CC5700AD1C77 /* 2.wav in Resources */,
 				6A47AADA270CE0DC002B4F9C /* Preview Assets.xcassets in Resources */,
 				6A47AAD7270CE0DC002B4F9C /* Assets.xcassets in Resources */,

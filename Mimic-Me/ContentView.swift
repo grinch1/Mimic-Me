@@ -11,6 +11,7 @@ import AVFoundation
 
 struct ContentView: View {
     
+    
     var body: some View {
         VStack(spacing: 0){
             Text("Mimic-Me!")
@@ -25,11 +26,13 @@ struct ContentView: View {
                     Rectangle()
                         .fill(.red)
                         .cornerRadius(100, corners: .topLeft)
+                        .tag(1)
                 }
                 Button(action: {soundManager.instance.playSound2()}) {
                     Rectangle()
                         .fill(.green)
                         .cornerRadius(100, corners: .topRight)
+                        .tag(2)
                 }
                 
                 Spacer()
@@ -42,11 +45,13 @@ struct ContentView: View {
                     Rectangle()
                         .fill(.blue)
                         .cornerRadius(100, corners: .bottomLeft)
+                        .tag(3)
                 }
                 Button(action: {soundManager.instance.playSound4()}) {
                     Rectangle()
                         .fill(.yellow)
                         .cornerRadius(100, corners: .bottomRight)
+                        .tag(4)
                 }
                 
                 
@@ -56,7 +61,7 @@ struct ContentView: View {
             
             Spacer()
             
-            Button(action: {print("PRINT")}){
+            Button(action: {soundManager.instance.playSound()}){
                 Text("Play")
                     .fontWeight(.bold)
                     .font(.title)

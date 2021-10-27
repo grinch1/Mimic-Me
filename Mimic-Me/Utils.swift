@@ -50,6 +50,16 @@ class soundManager {
             print("player error.\(error.localizedDescription)")
         }
     }
+    
+    func playSound() {
+        guard let url = Bundle.main.url(forResource:  "ES_GP39", withExtension: "mp3") else { return }
+        do{
+            player = try AVAudioPlayer(contentsOf: url)
+            player?.play()
+        }catch let error {
+            print("player error.\(error.localizedDescription)")
+        }
+    }
 }
 
 struct RoundedCorner: Shape {
